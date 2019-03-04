@@ -13,7 +13,7 @@
 > desc pegawai;
 > alter table pegawai add primary key(id_pegawai);
 
-> insert into pegawai(id_pegawai,nama_depan,nama_belakang,email,telepon,tgl_kontrak,id_job,gaji,tunjangan) values
+> insert into pegawai(id_pegawai,nama_depan,nama_belakang,email,tgl_kontrak,id_job,gaji,tunjangan) values
 -> ('E001','Ferry','gustiawan','ferry@yahoo.com','2005-09-01','L0001','2000000','500000'),
 -> ('E002','Aris','ganiardi','aris@yahoo.com','2006-09-01','L0002','2000000','200000'),
 -> ('E003','Faiz','ahmad','faiz@yahoo.com','2006-10-01','L0003','1500000','NULL'),
